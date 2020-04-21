@@ -1,0 +1,3 @@
+from typing import Any
+
+def parse_iso8601(datestring: Any): ...

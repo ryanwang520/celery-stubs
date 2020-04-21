@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def setup_security(allowed_serializers: Optional[Any] = ..., key: Optional[Any] = ..., cert: Optional[Any] = ..., store: Optional[Any] = ..., digest: Optional[Any] = ..., serializer: str = ..., app: Optional[Any] = ...) -> None: ...

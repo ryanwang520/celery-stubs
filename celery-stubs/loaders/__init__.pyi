@@ -1,0 +1,3 @@
+from typing import Any
+
+def get_loader_cls(loader: Any): ...

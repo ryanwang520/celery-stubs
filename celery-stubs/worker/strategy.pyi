@@ -1,0 +1,3 @@
+from typing import Any
+
+def default(task: Any, app: Any, consumer: Any, info: Any = ..., error: Any = ..., task_reserved: Any = ..., to_system_tz: Any = ..., bytes: Any = ..., buffer_t: Any = ..., proto1_to_proto2: Any = ...): ...

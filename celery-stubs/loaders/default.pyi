@@ -1,0 +1,9 @@
+from .base import BaseLoader
+from typing import Any
+
+DEFAULT_CONFIG_MODULE: str
+
+class Loader(BaseLoader):
+    def setup_settings(self, settingsdict: Any): ...
+    configured: bool = ...
+    def read_configuration(self, fail_silently: bool = ...): ...
