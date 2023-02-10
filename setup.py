@@ -33,8 +33,8 @@ setup(name='celery-stubs',
       license='MIT License',
       url="https://github.com/ryanwang520/celery-stubs",
       install_requires=[
-          'mypy>=0.720',
-          'typing-extensions>=3.7.4'
+          'mypy>=0.950',
+          'typing-extensions>=4.2.0'
       ],
       packages=['celery-stubs'],
       package_data={'celery-stubs': find_stub_files()},
